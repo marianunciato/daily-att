@@ -142,7 +142,7 @@ const DailyTemplate = () => {
 				</div>
 				<div className="botoes flex justify-between mt-5">
 					<button onClick={handleClearAll} className="botao-apagar-tudo text-white hover:text-red-500 px-4 py-2 rounded-lg"> Apagar tudo </button>
-					<button onClick={downloadTxtFile} className="botao-salvar-em-txt bg-green-700 text-white px-4 py-2 rounded-lg hover:bg-green-800"> Salvar rotina de hoje </button>
+					<button onClick={downloadTxtFile} className="botao-salvar-em-txt bg-green-700 text-white px-4 py-2 rounded-lg hover:bg-green-800"> Salvar atualização </button>
 				</div>
 			</section>
 		</main>
